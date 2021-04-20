@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "스파르타 내 꿀팁",
+    "slug": "sparta-myhoneytip-17beans",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "2.0.0",
+      "bundleIdentifier": "ios.myhoneytip.beans",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3250959123650295~1924846257"
+      }
+    },
+    "android": {
+          "package": "com.myhoneytip.beans",
+          "versionCode": 2,
+          "config": {
+            "googleMobileAdsAppId": "ca-app-pub-3250959123650295~3908506605"
+          }
+  }
+  },
+  "permissions": ["ACCESS_FINE-LOCATION", "ACCESS_COARSE_LOCATION"]
+}
